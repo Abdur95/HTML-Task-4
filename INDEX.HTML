@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<style>
+    fieldset {
+        border-collapse: collapse;
+        width: 60%;
+    }
+</style>
+<body>
+
+
+    <fieldset>
+        <table>
+        <legend>Contact Information</legend>
+    <form action="/action_page.php" target="_blank" method="get">
+        <tr>
+            <td>
+                First Name
+            </td>
+            <td>
+                <input type="text"placeholder="First Name"size="40">
+
+            </td>
+            <td>
+                Preferred contact method:
+            </td>
+        </tr>
+        <br
+        <tr>
+            <td>
+                Last Name
+            </td>
+            <td>
+                <input type="text"placeholder="Last Name"size="40">
+            </td>
+            <td>
+                <input type="Checkbox"> Email
+            </td>
+        
+        </tr>
+        <br>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                <input type="text"placeholder="Email"size="40">
+            </td>
+            <td>
+                <input type="Checkbox"> Phone
+            </td>
+    
+        </tr>
+        <br>
+        <tr>
+            <td>
+                Phone
+            </td>
+            <td>
+                <input type="text"placeholder="Phone"size="40">
+            </td>
+        </tr>
+
+    </form>
+
+</table>
+</fieldset>
+</body>
+<body>
+    <fieldset>
+        <legend>Feedback</legend>
+        <form action="/action_page.php" target="_blank" method="get">
+            <tr>
+                <td>
+                    Message Subject:
+                </td>
+                <td><input type="text"placeholder="Message Subject"></td>
+            </tr> <br> <br>
+            <textarea cols="50" rows="15"></textarea>
+            <br>
+            <td>
+                Attach a file:
+            </td>
+            <td>
+                <input type="file" name="Browse" id="Browse">
+            </td>
+        </form>
+        <input type="submit" value="Send">
+    </fieldset>
+</body>
+</html>
